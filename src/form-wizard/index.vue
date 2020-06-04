@@ -73,7 +73,6 @@ export default {
         window.confirmationResult = confirmationResult; 
         localStorage.setItem('userPhoneNumber',phone);
         localStorage.setItem('next','next')
-        // this.setStringItemToLS('userPhoneNumber',this.user.phone)
       })
       .catch(function(error){
         console.log('Error',error);
